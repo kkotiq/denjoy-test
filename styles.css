@@ -78,41 +78,41 @@ ul, li {
     background-color: white;
 }
 
-.content-article {
+.article {
     height: 100%;
 }
 
-.content-article__header-text {
+.article__header-text {
     margin: 20px auto;
     text-align: center;
     font-weight: 900;
     font-size: 28px;
 }
 
-.content-article__props {
+.article__props {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0 5px;
 }
 
-.content-article__author {
+.article__author {
     font-size: 22px;
 }
 
-.content-article__time {
+.article__time {
     font-size: 18px;
     font-style: italic;
 }
 
-.content-article__text {
+.article__text {
     padding: 5px 0;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
     font-size: 14px;
 }
 
-.content-article__copyright-text {
+.article__copyright-text {
     font-size: 18px;
 }
 
