@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 800px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    height: 100vh;
+}
+
+.button-up {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 50px;
+    left: 100%;
+    margin-right: -100px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.7);
+}
+
+.header {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    min-height: 49px;
+}
+
+.header-logo {
+    margin-left: -35px;
+    font-weight: 900;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.header-elements {
+    background-color: red;
+    padding: 5px 10px;
+    margin-right: -35px;
+}
+
+.header-elements__item {
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+}
+
+.main-container {
+    padding: 10px;
+    background-color: lightgray;
+    margin: 20px 0;
+    display: flex;
+    flex-flow: row-reverse nowrap; 
+    flex: 1 0 auto;
+    box-sizing: border-box;
+}
+
+.content-container {
+    width: 100%;
+    background-color: white;
+}
+
+.article {
+    height: 95%;
+}
+
+.content-article {
+    height: 100%;
+}
+
+.content-article__header-text {
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.content-article__props {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.content-article__author {
+    font-size: 22px;
+}
+
+.content-article__time {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.content-article__text {
+    padding: 5px 0;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    font-size: 14px;
+}
+
+.content-article__copyright-text {
+    font-size: 18px;
+}
+
+.grey-block {
+    width: 20px;
+    height: 100%;
+    background-color: lightgrey;
+}
+
+.aside-nav {
+    background-color: white;
+    width: 240px;
+    padding: 10px;
+}
+
+.aside-list {
+    background-color: lightgrey;
+}
+
+.aside-list__item {
+    padding: 5px;
+    border-bottom: 1px solid red;
+}
+
+.aside-list__item:last-child {
+    border-bottom: none;
+}
+
+.footer {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
+
+.footer__copyright {
+    text-align: right;
+}
