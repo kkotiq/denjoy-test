@@ -51,13 +51,13 @@ ul, li {
     color: black;
 }
 
-.header__elements {
+.header__list {
     background-color: red;
     padding: 5px 10px;
     margin-right: -35px;
 }
 
-.header__elements-item {
+.header__list-item {
     display: inline-block;
     background-color: white;
     padding: 5px;
